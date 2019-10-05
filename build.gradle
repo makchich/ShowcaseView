@@ -23,7 +23,9 @@ allprojects {
   version = VERSION_CODE
 
   repositories {
+    jcenter()
     mavenCentral()
+    google()
   }
 
   tasks.withType(JavaCompile) {

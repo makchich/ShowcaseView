@@ -12,12 +12,12 @@ The library is based on the "Cling" view found in the Launcher on Ice-Cream Sand
 Project set-up
 ====
 
-**ShowcaseView currently supports API LEVEL 11+**
+**ShowcaseView currently supports API LEVEL 14+**
 
 If you're using a Gradle-based project, then you can add SCV as a dependency directly:
 
 ~~~
-compile 'com.github.amlcurran.showcaseview:library:5.4.3'
+compile 'com.github.amlcurran.showcaseview:library:5.4.4'
 ~~~
 
 If you're using Maven (but not Gradle), you can add the APKlib as a dependency:
@@ -26,7 +26,7 @@ If you're using Maven (but not Gradle), you can add the APKlib as a dependency:
 <dependency>
   <groupId>com.github.amlcurran.showcaseview</groupId>
   <artifactId>library</artifactId>
-  <version>5.4.3</version>
+  <version>5.4.4</version>
   <type>apklib</type>
 </dependency>
 ```

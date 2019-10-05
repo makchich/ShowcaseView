@@ -1,6 +1,8 @@
-task showcaseViewRelease << {
-    if (!project.hasProperty("versionName")) {
-        throw new TaskExecutionException(tasks['commitRelease'], new NullPointerException("No version name supplied"))
+task showcaseViewRelease {
+    doLast {
+        if (!project.hasProperty("versionName")) {
+            throw new TaskExecutionException(tasks['commitRelease'], new NullPointerException("No version name supplied"))
+        }
     }
 }
 
